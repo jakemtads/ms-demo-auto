@@ -1,0 +1,1245 @@
+/*--------------------------------------------------------------
+# General Layout
+--------------------------------------------------------------*/
+
+.container {
+	/*width: 1600px; */
+}
+
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+/*--------------------------------------------------------------
+# Branding
+--------------------------------------------------------------*/
+
+header.navbar {
+	background-color: #fff;
+}
+
+header.navbar .navbar-brand {
+	height: initial;
+}
+
+header.navbar ul.nav li a {
+	margin-top: 6px;
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+
+header.navbar ul.nav li a img {
+	width: 32px;
+	height: 32px;
+}
+
+header.navbar .container {
+	position: relative;
+}
+
+header.navbar ul.nav {
+	position: absolute;
+	margin: auto;
+	right: 0;
+	top: 5px;
+}
+
+header.navbar .navbar-header:nth-child(2) a {
+	text-decoration: none;
+	color: #000;
+}
+
+header.navbar .navbar-header:nth-child(2) {
+	padding-top: 10px;
+}
+
+header.navbar .navbar-header:nth-child(2) a span:first-child {
+	font-size: 45px;
+	text-transform: uppercase;
+	margin-left: -4px;
+	line-height: 46px;
+}
+
+header.navbar .navbar-header:first-child .navbar-brand {
+	padding-bottom: 15px;
+}
+
+header.navbar .navbar-header:nth-child(2) a span {
+	font-weight: 400;
+}
+
+header.navbar:before,
+header.navbar:after,
+header.navbar .navbar-header:before,
+header.navbar .navbar-header:after,
+header.navbar .nav:before,
+header.navbar .nav:after {
+	display: inline;
+}
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+
+nav.navbar {
+	background-color: #026890;
+}
+
+nav .navbar-toggle.-social-icon a {
+	color: #fff;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+	color: #fff;
+	background-color: #026890;
+}
+
+.navbar-nav>li>.dropdown-menu {
+	background-color: #222;
+}
+
+.navbar-nav>li>.dropdown-menu * {
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-toggle {
+	border: 0;
+}
+
+.navbar-default .navbar-toggle,
+.navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+}
+
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+
+section.banner {
+	background-color: #fff;
+}
+
+section.banner>.col-md-12 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.-banner-overlay-permanent>.row>.col-md-8,
+.-banner-overlay-conditional>.row>.col-lg-8,
+.-banner-overlay-conditional>.row>.col-md-9 {
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+ }
+
+.-overlay-top {
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	font-size: 25px;
+ 	letter-spacing: 3px;
+ 	line-height: 38px;
+ }
+
+.-overlay-mid {
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	font-size: 52px;
+ 	letter-spacing: -2px;
+ 	line-height: 55px;
+ 	border-bottom: 1px solid #fff;
+ 	display: inline-block;
+ }
+
+.-overlay-btm {
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	font-size: 40px;
+ 	letter-spacing: 3.5px;
+ 	line-height: 55px;
+ }
+
+.-overlay-find {
+ 	text-transform: uppercase;
+ 	color: #fff;
+ 	font-size: 25px;
+ 	letter-spacing: 3px;
+ 	line-height: 30px;
+ 	padding-top: 15px;
+ 	padding-bottom: 15px;
+ 	background-color: #003042;
+ 	margin-top: 30px;
+ }
+
+.-overlay-find {
+ 	padding-bottom: 15px;
+ }
+
+.-banner-overlay-conditional form {
+ 	background-color: #01688f;
+ 	padding-top: 20px;
+ 	padding-bottom: 20px;
+ }
+
+.-banner-overlay-conditional select.form-control {
+	font-size: 13px;
+	height: 35px;
+	border-radius: 0;
+	border: 0;
+	padding-left: 5px;
+	text-align: left;
+	background-color: #fff;
+	color: #000;
+}
+
+.-banner-overlay-conditional input.btn-primary {
+ 	height: 35px;
+ 	border-radius: 0;
+ 	border: 0;
+ 	background-color: #003042;
+ 	text-transform: uppercase;
+ }
+
+/*--------------------------------------------------------------
+# Main Content
+--------------------------------------------------------------*/
+
+article.main-content {
+	background-size: 100% 100%; 
+}
+
+article.main-content .container {
+	-webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.15);
+}
+
+article.main-content .container>.row>.col-md-12 {
+	background-color: #fff;
+	padding-top: 40px;
+	padding-bottom: 0;
+}
+
+article.main-content .container>.row>.col-md-12:last-child {
+	padding-bottom: 50px !important;
+}
+
+article.main-content .car-logo>div img {
+	margin: 0 auto;
+}
+
+article.main-content hr {
+	margin-bottom: 0;
+}
+
+article.main-content .quick-inventory .btn-group-lg>.btn,
+article.main-content .quick-inventory .btn-lg {
+	border-radius: 0;
+	border: 0;
+	background-color: #01688f;
+	padding: 20px 16px;
+}
+
+article.main-content .quick-inventory button {
+	text-transform: uppercase;
+}
+
+article.main-content .page-header {
+	padding-bottom: 25px;
+	border: 0;
+	text-transform: uppercase;
+	color: #01688f; 
+}
+
+article.main-content .featured-description {
+	line-height: 17px;
+	padding-top: 10px;
+}
+
+article.main-content .quick-message-title {
+	font-size: 25px;
+	color: #01688f;
+}
+
+/*--------------------------------------------------------------
+# Footer Info
+--------------------------------------------------------------*/
+
+footer.footer-info {
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+footer.footer-info .container {
+	font-size: 11px;
+}
+
+footer.footer-info a {
+	color: #000;
+	text-decoration: none;
+}
+
+/*--------------------------------------------------------------
+# Media Query
+--------------------------------------------------------------*/
+
+@media (min-width: 1200px) {
+	nav.navbar-default .navbar-nav>li.active a,
+	nav.navbar-default .navbar-nav>li.active a:focus,
+	nav.navbar-default .navbar-nav>li.active a:hover,
+	nav.navbar-default .navbar-nav>li a,
+	nav.navbar-default .navbar-nav>li a:focus,
+	nav.navbar-default .navbar-nav>li a:hover {
+		text-transform: uppercase;
+		color: #fff;
+		background-color: transparent;
+		font-size: 18px;
+	}
+	.nav>li>a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	section.banner .carousel-inner>.item>a>img,
+	section.banner .carousel-inner>.item>img,
+	section.banner .img-responsive,
+	section.banner .thumbnail a>img,
+	section.banner .thumbnail>img {
+		width: 100%;
+		margin: 0 auto;
+		height: 580px;
+	}
+	.-banner-overlay-permanent {
+		margin-top: 61.5714px;
+	}
+	.-banner-overlay-conditional {
+		margin-top: 210.571px;
+	}
+	.-banner-overlay-permanent,
+	.-banner-overlay-conditional {
+	 	position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.-banner-overlay-conditional select.form-control {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.-banner-overlay-conditional select.form-control,
+	.-banner-overlay-conditional input.btn-primary {
+		-ms-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box; 
+		box-sizing: content-box;
+	}
+	.-banner-overlay-conditional select.form-control,
+	.-banner-overlay-conditional input.btn-primary {
+ 		width: 92px;
+ 	}
+ 	article.main-content .container {
+		margin-top: -69px;
+	}
+	article.main-content .container>.row>.col-md-12 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	article.main-content .car-logo>div:first-child { /* Chevrolet */
+		width: 74px;
+	}
+	article.main-content .car-logo>div:nth-child(2) { /* Chrysler */
+		width: 84px;
+	}
+	article.main-content .car-logo>div:nth-child(3) { /* Dodge */
+		width: 84px;
+	}
+	article.main-content .car-logo>div:nth-child(4) { /* Ford */
+		width: 74px;
+	}
+	article.main-content .car-logo>div:nth-child(5) { /* Honda */
+		width: 68px;
+	}
+	article.main-content .car-logo>div:nth-child(6) { /* Hyundai */
+		width: 62px;
+	}
+	article.main-content .car-logo>div:nth-child(7) { /* Jeep */
+		width: 56px;
+	}
+	article.main-content .car-logo>div:nth-child(8) { /* Kia */
+		width: 66px;
+	}
+	article.main-content .car-logo>div:nth-child(9) { /* Mazda */
+		width: 48px;
+	}
+	article.main-content .car-logo>div:nth-child(10) { /* Nissan */ 
+		width: 54px;
+	}
+	article.main-content .car-logo>div:nth-child(11) { /* Ram */ 
+		width: 48px;
+	}
+	article.main-content .car-logo>div:nth-child(12) { /* Scion */
+		width: 54px;
+	}
+	article.main-content .car-logo>div:nth-child(13) { /* Toyota */
+		width: 54px;
+	}
+	article.main-content .car-logo>div:nth-child(14) { /* Volkswagen */
+		width: 52px;
+	}
+	article.main-content .page-header,
+	article.main-content  .quick-inventory .btn-group-lg>.btn,
+	article.main-content  .quick-inventory .btn-lg {
+		font-size: 25px;
+	}
+	article.main-content .featured-vehicles>div {
+		width: calc(16.5% - 12px);
+	}
+	article.main-content .quick-sale .btn {
+		border-radius: 0;
+		border: 0;
+		background-color: #01688f;
+		padding: 10px 16px;
+		font-size: 16px;
+		line-height: 1.92857143;
+	}
+	article.main-content .quick-sale>.btn-group>button:first-child {
+		background-color: #00425b;
+	}
+	article.main-content .quick-sale>.btn-group {
+		width: 100%;
+	}
+	article.main-content .quick-sale>.btn-group>button:nth-child(2) {
+		width: calc(100% - 60px);
+		font-size: 18px;
+		text-align: left;
+	}
+	article.main-content .quick-sale {
+		width: calc(33.2% - 20px);
+		vertical-align: top;
+	}
+	article.main-content .quick-message {
+		width: calc(66.5% - 20px);
+		vertical-align: top;
+	}
+	footer.footer-info .container>.row>.col-md-12 {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	nav.navbar-default .navbar-nav>li.active a,
+	nav.navbar-default .navbar-nav>li.active a:focus,
+	nav.navbar-default .navbar-nav>li.active a:hover,
+	nav.navbar-default .navbar-nav>li a,
+	nav.navbar-default .navbar-nav>li a:focus,
+	nav.navbar-default .navbar-nav>li a:hover {
+		text-transform: uppercase;
+		color: #fff;
+		background-color: transparent;
+		font-size: 16px;
+	}
+	.nav>li>a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	section.banner .carousel-inner>.item>a>img,
+	section.banner .carousel-inner>.item>img,
+	section.banner .img-responsive,
+	section.banner .thumbnail a>img,
+	section.banner .thumbnail>img {
+		width: 100%;
+		margin: 0 auto;
+		height: 500px;
+	}
+	.-banner-overlay-permanent,
+	.-banner-overlay-conditional {
+	 	position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.-banner-overlay-conditional select.form-control {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.-banner-overlay-conditional select.form-control,
+	.-banner-overlay-conditional input.btn-primary {
+		-ms-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box; 
+		box-sizing: content-box;
+	}
+	.-banner-overlay-permanent {
+		margin-top: 35.1px;
+	}
+	.-banner-overlay-conditional {
+		margin-top: 184.1px;
+	}
+	.-banner-overlay-conditional select.form-control,
+	.-banner-overlay-conditional input.btn-primary {
+ 		width: 85px;
+ 	}
+ 	article.main-content .container {
+		margin-top: -69px;
+	}
+	article.main-content .container>.row>.col-md-12 {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	article.main-content .car-logo>div:first-child { /* Chevrolet */
+		width: 5.14vw;
+	}
+	article.main-content .car-logo>div:nth-child(2) { /* Chrysler */
+		width: 5.83vw;
+	}
+	article.main-content .car-logo>div:nth-child(3) { /* Dodge */
+		width: 5.83vw;
+	}
+	article.main-content .car-logo>div:nth-child(4) { /* Ford */
+		width: 5.14vw;
+	}
+	article.main-content .car-logo>div:nth-child(5) { /* Honda */
+		width: 4.72vw;
+	}
+	article.main-content .car-logo>div:nth-child(6) { /* Hyundai */
+		width: 4.31vw;
+	}
+	article.main-content .car-logo>div:nth-child(7) { /* Jeep */
+		width: 3.89vw;
+	}
+	article.main-content .car-logo>div:nth-child(8) { /* Kia */
+		width: 4.58vw;
+	}
+	article.main-content .car-logo>div:nth-child(9) { /* Mazda */
+		width: 3.33vw;
+	}
+	article.main-content .car-logo>div:nth-child(10) { /* Nissan */ 
+		width: 3.75vw;
+	}
+	article.main-content .car-logo>div:nth-child(11) { /* Ram */ 
+		width: 3.33vw;
+	}
+	article.main-content .car-logo>div:nth-child(12) { /* Scion */
+		width: 3.75vw;
+	}
+	article.main-content .car-logo>div:nth-child(13) { /* Toyota */
+		width: 3.75vw;
+	}
+	article.main-content .car-logo>div:nth-child(14) { /* Volkswagen */
+		width: 3.61vw;
+	}
+	article.main-content .quick-inventory .btn-group-lg>.btn,
+	article.main-content .quick-inventory .btn-lg {
+		font-size: 22px;
+	}
+	article.main-content .quick-inventory .page-header {
+		font-size: 25px;
+	}
+	article.main-content .featured-vehicles>div {
+		width: calc(16.5% - 12px);
+	}
+	article.main-content .quick-sale .btn {
+		border-radius: 0;
+		border: 0;
+		background-color: #01688f;
+		padding: 10px 16px;
+		font-size: 16px;
+		line-height: 1.92857143;
+	}
+	article.main-content .quick-sale>.btn-group>button:first-child {
+		background-color: #00425b;
+	}
+	article.main-content .quick-sale>.btn-group {
+		width: 100%;
+	}
+	article.main-content .quick-sale>.btn-group>button:nth-child(2) {
+		width: calc(100% - 60px);
+		font-size: 18px;
+		text-align: left;
+	}
+	article.main-content .quick-sale {
+		width: calc(33.2% - 20px);
+		vertical-align: top;
+	}
+	article.main-content .quick-message {
+		width: calc(66.5% - 20px);
+		vertical-align: top;
+	}
+	footer.footer-info .container>.row>.col-md-12 {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	header.navbar>.container,
+	nav.navbar>.container,
+	article.main-content>.container {
+		width: 100%;
+	}
+	nav.navbar-default .navbar-nav>li.active a,
+	nav.navbar-default .navbar-nav>li.active a:focus,
+	nav.navbar-default .navbar-nav>li.active a:hover,
+	nav.navbar-default .navbar-nav>li a,
+	nav.navbar-default .navbar-nav>li a:focus,
+	nav.navbar-default .navbar-nav>li a:hover {
+		font-size: 1.5vw;
+		text-transform: uppercase;
+		color: #fff;
+		background-color: transparent;
+	}
+	.nav>li>a {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	section.banner .carousel-inner>.item>a>img,
+	section.banner .carousel-inner>.item>img,
+	section.banner .img-responsive,
+	section.banner .thumbnail a>img,
+	section.banner .thumbnail>img {
+		width: 100%;
+		margin: 0 auto;
+		height: 325px;
+	}
+	section.banner .col-md-12 {
+		float: left;
+	}
+	.-banner-overlay-permanent {
+		margin-top: 85px;
+	}
+	.-banner-overlay-conditional {
+		margin-top: 290px;
+	}
+	.-banner-overlay-permanent,
+	.-banner-overlay-conditional {
+	 	position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.container.-banner-overlay-conditional {
+		width: 100%;
+	}
+	.-banner-overlay-conditional select.form-control {
+		margin-left: 2px;
+		margin-right: 2px;
+	}
+	.-banner-overlay-conditional select.form-control,
+	.-banner-overlay-conditional input.btn-primary {
+		-ms-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		-webkit-box-sizing: content-box; 
+		box-sizing: content-box;
+	}
+	.-overlay-top,
+	.-overlay-mid,
+	.-overlay-btm {
+		text-shadow: 1px 1px 1px #000;
+	}
+	.-banner-overlay-conditional select.form-control,
+	.-banner-overlay-conditional input.btn-primary {
+ 		width: 12.1vw;
+ 	}
+ 	.-banner-overlay-conditional .col-xs-12 {
+		padding-right: 0;
+		padding-left: 0;
+ 	}
+ 	article.main-content .container {
+		margin-top: 150px;
+	}
+	article.main-content .container>.row>.col-md-12 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	article.main-content .car-logo>div:first-child { /* Chevrolet */
+		width: 12vw;
+	}
+	article.main-content .car-logo>div:nth-child(2) { /* Chrysler */
+		width: 13vw;
+	}
+	article.main-content .car-logo>div:nth-child(3) { /* Dodge */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(4) { /* Ford */
+		width: 10.25vw;
+	}
+	article.main-content .car-logo>div:nth-child(5) { /* Honda */
+		width: 11vw;
+	}
+	article.main-content .car-logo>div:nth-child(6) { /* Hyundai */
+		width: 11.62vw;
+	}
+	article.main-content .car-logo>div:nth-child(7) { /* Jeep */
+		width: 10.78vw;
+	}
+	article.main-content .car-logo>div:nth-child(8) { /* Kia */
+		width: 12.16vw;
+		padding-top: 35px;
+	}
+	article.main-content .car-logo>div:nth-child(9) { /* Mazda */
+		width: 9.68vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(10) { /* Nissan */ 
+		width: 10.5vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(11) { /* Ram */ 
+		width: 9.68vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(12) { /* Scion */
+		width: 10.5vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(13) { /* Toyota */
+		width: 10.5vw;
+		padding-top: 35px;
+	}
+	article.main-content .car-logo>div:nth-child(14) { /* Volkswagen */
+		width: 10.22vw;
+		padding-top: 25px;
+	}
+	article.main-content .featured-vehicles>div {
+		width: calc(33.3% - 12px);
+		padding-top: 20px;
+	}
+	article.main-content .featured-vehicles>div img {
+		width: 100%;
+	}
+	article.main-content .quick-sale .btn {
+		border-radius: 0;
+		border: 0;
+		background-color: #01688f;
+		padding: 10px 16px;
+		font-size: 16px;
+		line-height: 2.3;
+	}
+	article.main-content .quick-sale>.btn-group>button:first-child {
+		background-color: #00425b;
+	}
+	article.main-content .quick-sale>.btn-group {
+		width: 100%;
+	}
+	article.main-content .quick-sale>.btn-group>button:nth-child(2) {
+		width: calc(100% - 60px);
+		font-size: 16px;
+		text-align: left;
+	}
+	article.main-content .quick-sale {
+		width: calc(33.2% - 20px);
+		vertical-align: top;
+	}
+	article.main-content .quick-message {
+		width: calc(66.5% - 20px);
+		vertical-align: top;
+	}
+	footer.footer-info .container>.row>.col-md-12 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	footer.footer-info .container {
+		width: 100%;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-toggle.-social-icon {
+		display: none;
+	}
+	nav.navbar ul.navbar-nav {
+		height: 50px;
+	}
+	.dropdown:hover .dropdown-menu { /* makes on-hover dropdown, easy! */
+		display: block;
+		margin-top: 0; /* remove the gap so it doesn't close */
+	}
+	article.main-content .quick-inventory button {
+		width: calc(33% - 3px);
+	}
+}
+
+@media (max-width: 767px) {
+	header ul {
+		display: none;
+	}
+	.navbar-toggle.-social-icon {
+		margin-top: 5px;
+		margin-bottom: 0;
+		margin-right: 5px;
+	}
+	.navbar-toggle.-social-icon .fa-2x {
+		font-size: 1.5em;
+	}
+	.navbar-toggle.-social-icon .fa-lg {
+		font-size: 1.65em;
+	}
+	.navbar-right {
+		float: right !important;
+		margin-right: -15px;
+	}
+	.navbar-default .navbar-collapse,
+	.navbar-default .navbar-form {
+		border-color: #026890;
+	}
+	.navbar-nav .open .dropdown-menu,
+	.navbar-nav .open .dropdown-menu {
+		background-color: #222;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #fff;
+	}
+	nav.navbar-default .navbar-nav>li a,
+	nav.navbar-default .navbar-nav>li a:focus,
+	nav.navbar-default .navbar-nav>li a:hover,
+	nav.navbar-default .navbar-nav>li.active a,
+	nav.navbar-default .navbar-nav>li.active a:focus,
+	nav.navbar-default .navbar-nav>li.active a:hover {
+		text-transform: uppercase;
+		color: #fff;
+		background-color: transparent;
+		font-size: 18px;
+	}
+	nav ul.nav li:first-child a {
+		padding-left: 15px;
+	}
+	nav ul.nav li:last-child a {
+		padding-right: 15px;
+	}
+	section.banner .carousel-inner>.item>a>img,
+	section.banner .carousel-inner>.item>img,
+	section.banner .img-responsive,
+	section.banner .thumbnail a>img,
+	section.banner .thumbnail>img {
+		width: 100%;
+		margin: 0 auto;
+		height: 240px;
+	}
+	.-banner-overlay-permanent {
+		margin-top: -200px;
+		height: 120px;
+	}
+	.-banner-overlay-conditional {
+		margin-top: 75px;
+	}
+	.-overlay-top {
+	 	text-transform: uppercase;
+	 	color: #fff;
+	 	font-size: 4vw;
+	 	letter-spacing: .4vw;
+	 	line-height: 6vw;
+	}
+	.-overlay-mid {
+	 	text-transform: uppercase;
+	 	color: #fff;
+	 	font-size: 7.5vw;
+	 	letter-spacing: -.4vw;
+	 	line-height: 7.75vw;
+	 	border-bottom: 1px solid #fff;
+	 	display: inline-block;
+	}
+	.-overlay-btm {
+	 	text-transform: uppercase;
+	 	color: #fff;
+	 	font-size: 6.05vw;
+	 	letter-spacing: .4vw;
+	 	line-height: 8vw;
+	}
+	.-overlay-find {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.-overlay-top,
+	.-overlay-mid,
+	.-overlay-btm {
+		text-shadow: 1px 1px 1px #000;
+	}
+	.container.-banner-overlay-conditional {
+		width: 100%;
+	}
+	.-overlay-find {
+		margin-top: 0;
+	}
+	.-banner-overlay-conditional input.btn-primary {
+ 		width: 100%;
+ 	}
+ 	.-banner-overlay-conditional .col-xs-12 {
+		padding-right: 0;
+		padding-left: 0;
+ 	}
+ 	.-banner-overlay-conditional form {
+ 		padding-right: 20px;
+		padding-left: 20px;
+ 	}
+ 	.-banner-overlay-conditional form .form-group:last-child {
+ 		margin-bottom: 0;
+ 	}
+ 	article.main-content .carousel {
+		height: 18vw;
+ 	}
+ 	.rotate-five>div {
+		width: calc(17vw - 10px);
+	}
+	.rotate-four>div {
+		width: calc(19vw - 10px);
+	}
+	article.main-content .container>.row>.col-md-12 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	article.main-content .car-logo>div:first-child { /* Chevrolet */
+		width: 12vw;
+	}
+	article.main-content .car-logo>div:nth-child(2) { /* Chrysler */
+		width: 13vw;
+	}
+	article.main-content .car-logo>div:nth-child(3) { /* Dodge */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(4) { /* Ford */
+		width: 10.25vw;
+	}
+	article.main-content .car-logo>div:nth-child(5) { /* Honda */
+		width: 11vw;
+	}
+	article.main-content .car-logo>div:nth-child(6) { /* Hyundai */
+		width: 11.62vw;
+	}
+	article.main-content .car-logo>div:nth-child(7) { /* Jeep */
+		width: 10.78vw;
+	}
+	article.main-content .car-logo>div:nth-child(8) { /* Kia */
+		width: 12.16vw;
+		padding-top: 35px;
+	}
+	article.main-content .car-logo>div:nth-child(9) { /* Mazda */
+		width: 9.68vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(10) { /* Nissan */ 
+		width: 10.5vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(11) { /* Ram */ 
+		width: 9.68vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(12) { /* Scion */
+		width: 10.5vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(13) { /* Toyota */
+		width: 10.5vw;
+		padding-top: 35px;
+	}
+	article.main-content .car-logo>div:nth-child(14) { /* Volkswagen */
+		width: 10.22vw;
+		padding-top: 25px;
+	}
+	article.main-content .-stretch {
+	    width: 100%;
+	    display: inline-block;
+	    font-size: 0;
+	    line-height: 0;
+	}
+	article.main-content .-stretch-container {
+		width: 100%;
+		text-align: justify;
+	    -ms-text-justify: distribute-all-lines;
+	    text-justify: distribute-all-lines;
+	}
+	article.main-content .-stretch-container>*:not(.-stretch) {
+		vertical-align: middle;
+	    display: inline-block;
+	    float: none;
+	}
+	article.main-content .quick-inventory .btn-group-lg>.btn,
+	article.main-content .quick-inventory .btn-lg {
+		font-size: 22px;
+	}
+	article.main-content .quick-inventory button {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	article.main-content .page-header {
+		font-size: 25px;
+	}
+	article.main-content .featured-vehicles>div {
+		padding-top: 20px;
+	}
+	article.main-content .quick-sale .btn {
+		border-radius: 0;
+		border: 0;
+		background-color: #01688f;
+		padding: 10px 16px;
+		font-size: 18px;
+		line-height: 2;
+	}
+	article.main-content .quick-sale>.btn-group>button:first-child {
+		background-color: #00425b;
+	}
+	article.main-content .quick-sale>.btn-group {
+		width: 100%;
+	}
+	article.main-content .quick-sale>.btn-group>button:nth-child(2) {
+		width: calc(100% - 60px);
+		font-size: 18px;
+		text-align: left;
+	}
+	article.main-content .quick-sale {
+		width: 100%;
+		vertical-align: top;
+	}
+	article.main-content .quick-message {
+		width: 100%;
+		vertical-align: top;
+		margin-top: 30px;
+	}
+	footer.footer-info .container>.row>.col-md-12 {
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	footer.footer-info .container>.row>.col-md-12>div {
+		width: 100%;
+		text-align: center;
+	}
+	footer.footer-info .container>.row>.col-md-12 img {
+		margin: 0 auto;
+	}
+	footer.footer-info .container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) and (min-width: 681px) {
+	article.main-content .featured-vehicles>div {
+		width: calc(33.3% - 15px);
+	}
+	article.main-content .featured-vehicles>div img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 680px) and (min-width: 466px) {
+	article.main-content .featured-vehicles>div {
+		width: calc(50% - 20px);
+	}
+	article.main-content .featured-vehicles>div img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 465px) {
+	article.main-content .featured-vehicles>div {
+		width: 100%;
+	}
+	article.main-content .featured-vehicles>div img {
+		width: 100%;
+	}
+}
+
+@media (max-width: 680px) and (min-width: 551px) {
+	header.navbar .navbar-header:nth-child(2) a span:first-child {
+		font-size: 33px;
+		text-transform: uppercase;
+		margin-left: -4px;
+		line-height: 38px;
+		font-weight: bold;
+	}
+}
+
+@media (max-width: 550px) {
+	header.navbar ul.nav li a {
+		display: none;
+	}
+}
+
+@media (max-width: 550px) and (min-width: 476px) {
+	header.navbar .navbar-header:nth-child(2) a span:first-child {
+		font-size: 6.25vw;
+		text-transform: uppercase;
+		margin-left: -4px;
+		line-height: 6.75vw;
+		font-weight: bold;
+	}
+	header.navbar .navbar-header:nth-child(2) .navbar-brand {
+		padding-top: 20px;
+	}
+}
+
+@media (max-width: 475px) {
+	header.navbar .navbar-header:nth-child(2) a span:first-child {
+		font-size: 6vw;
+		text-transform: uppercase;
+		margin-left: -4px;
+		line-height: 6.5vw;
+		font-weight: bold;
+	}
+	header.navbar .navbar-header:nth-child(2) .navbar-brand {
+		padding-top: 20px;
+		padding-left: 5px;
+	}
+}
+
+@media (max-width: 425px) {
+	header.navbar .navbar-header:nth-child(2) a.navbar-brand>span:first-child {
+		font-size: 5.8vw;
+		text-transform: uppercase;
+		margin-left: -4px;
+		line-height: 6.5vw;
+		font-weight: bold;
+	}
+	header.navbar .navbar-header:nth-child(2) span.header-address {
+		font-size: 4.5vw;
+		text-transform: uppercase;
+		margin-left: -4px;
+		line-height: 6.5vw;
+		font-weight: bold;
+	}
+	header.navbar .navbar-header:nth-child(2) .navbar-brand {
+		padding-top: 20px;
+		padding-left: 5px;
+	}
+	article.main-content .car-logo>div:first-child { /* Chevrolet */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(2) { /* Chrysler */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(3) { /* Dodge */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(4) { /* Ford */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(5) { /* Honda */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(6) { /* Hyundai */
+		width: 10vw;
+	}
+	article.main-content .car-logo>div:nth-child(7) { /* Jeep */
+		width: 10.5vw;
+	}
+	article.main-content .car-logo>div:nth-child(8) { /* Kia */
+		width: 11vw;
+		padding-top: 35px;
+	}
+	article.main-content .car-logo>div:nth-child(9) { /* Mazda */
+		width: 9.68vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(10) { /* Nissan */ 
+		width: 10.5vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(11) { /* Ram */ 
+		width: 9.68vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(12) { /* Scion */
+		width: 10.5vw;
+		padding-top: 25px;
+	}
+	article.main-content .car-logo>div:nth-child(13) { /* Toyota */
+		width: 10.5vw;
+		padding-top: 35px;
+	}
+	article.main-content .car-logo>div:nth-child(14) { /* Volkswagen */
+		width: 10.22vw;
+		padding-top: 25px;
+	}
+}
+
+@media (max-width: 390px) and (min-width: 349px) {
+	header.navbar>.container>.navbar-header>.navbar-brand {
+		padding-right: 5px;
+	}
+}
+
+@media (max-width: 348px) {
+	header.navbar>.container>.navbar-header>.navbar-brand {
+		padding-left: 0;
+		padding-right: 5px;
+	}
+	article.main-content .quick-inventory .btn-lg {
+		font-size: 5.8vw;;
+	}
+}
+
+/*--------------------------------------------------------------
+# Extension: Font and Alignment Helpers
+--------------------------------------------------------------*/
+
+* {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+}
+
+html.-doc-off {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.back-to-top {
+	/* action! */
+}
+
+@media (min-width: 767px) {
+	.-stretch {
+	    width: 100%;
+	    display: inline-block;
+	    font-size: 0;
+	    line-height: 0;
+	}
+	.-stretch-container {
+		width: 100%;
+		text-align: justify;
+	    -ms-text-justify: distribute-all-lines;
+	    text-justify: distribute-all-lines;
+	}
+	.-stretch-container>*:not(.-stretch) {
+		vertical-align: middle;
+	    display: inline-block;
+	    float: none;
+	}
+	.-stretch-container>li:first-child>a {
+		padding-left: 0;
+	}
+	.-stretch-container>li:last-child>a {
+		padding-right: 0;
+	}
+}
+
+.-smooth-overflow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.-sanspro-light,
+.-sanspro-light * {
+	font-family: 'source_sans_prolight';
+}
+
+.-sanspro-regular,
+.-sanspro-regular * {
+	font-family: 'source_sans_proregular';
+}
+
+.-sanspro-semibold,
+.-sanspro-semibold * {
+	font-family: 'source_sans_prosemibold';
+}
+
+.-lato-regular,
+.-lato-regular * {
+	font-family: 'latoregular';
+}
+
